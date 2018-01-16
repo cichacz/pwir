@@ -8,7 +8,7 @@
 ## Opis zagadnienia
 
 n równouprawnionych procesów A<sub>i...n</sub> generuje ciągi k liczb całkowitych, 
-które następnie wysyła w porcjach po 10 do m procesów sumujących B<sub>j...m</sub>.  
+które następnie wysyła w porcjach po 10 do m procesów sumujących B<sub>j...m</sub>  
 Po zsumowaniu wynik jest zwracany do nadawcy.
 
 ## Sposób rozwiązania
@@ -43,11 +43,11 @@ Otrzymują listę liczb całkowitych, które sumują i zwracają wynik do nadawc
 
 ## Testowanie
 #### Kompilacja
-```java
+```
 javac ./src/uek/szewczyk/*.java
 ```
 #### Uruchamianie
-```java
+```
 java -cp src uek.szewczyk.Main k m n
 ```
 ##### Opis parametrów
