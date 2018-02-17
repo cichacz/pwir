@@ -6,6 +6,11 @@ import java.util.concurrent.Executors;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
+        if(args.length < 3) {
+            //too few arguments!
+            System.out.println("Too few arguments!");
+            System.exit(123);
+        }
         //read commandline params
         int k = Integer.parseInt(args[0]);
         int n = Integer.parseInt(args[1]);
