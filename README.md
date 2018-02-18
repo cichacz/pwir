@@ -44,11 +44,11 @@ Otrzymują listę liczb całkowitych, które sumują i zwracają wynik do nadawc
 ## Testowanie
 #### Kompilacja
 ```
-javac ./src/uek/szewczyk/*.java
+javac ./src/uek/zadanie/*.java
 ```
 #### Uruchamianie
 ```
-java -cp src uek.szewczyk.Main k m n
+java -cp src uek.zadanie.Main k m n
 ```
 ##### Opis parametrów
 - k - tyle liczb ma wygenerować każdy generator
