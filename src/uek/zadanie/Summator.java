@@ -1,4 +1,4 @@
-package uek.szewczyk;
+package uek.zadanie;
 
 import java.util.List;
 import java.util.concurrent.Callable;

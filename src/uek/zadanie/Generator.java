@@ -1,4 +1,4 @@
-package uek.szewczyk;
+package uek.zadanie;
 
 import java.util.ArrayList;
 import java.util.List;
